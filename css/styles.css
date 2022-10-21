@@ -216,3 +216,62 @@ h1 {
         margin-left: 0px;
     }
 }
+
+@media screen and (max-width:600px){
+
+.banner {
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  .sub-title {
+    padding: 14px;
+  }
+  
+  .conteudo {
+    padding: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .sidebar {
+    display: none;
+  }
+  
+  .conteudo-principal {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .img2 {
+    width: 60vw;
+  }
+  
+  .img {
+    width: 76vw;
+    height: 20vh;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .titulo2 {
+    /* font-size: 50px; */
+    font-size: 8vw;
+  }
+  
+  
+  .ytp-cued-thumbnail-overlay-image {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+  }
+  
+  .imgbgcpc {
+    display: none;
+  }
+  
+}

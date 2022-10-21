@@ -79,6 +79,8 @@ h1 {
     font-family: Montserrat, sans serif;
     font-weight: bold;
     color: #008000;
+    background-color: #4169502d;
+    border-radius: 15px;
     font-size: 15px;
 }
 

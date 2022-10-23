@@ -123,6 +123,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
+    background-image: url(../img/plant-white.jpg);
 }
 
 /* SIDEBAR/NAVBAR */

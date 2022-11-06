@@ -81,8 +81,7 @@ h1 {
     color: #008000;
     background-color: #4169502d;
     border-radius: 15px;
-    padding-left: 20px;
-    font-size: 15px;
+    padding: 20px;
 }
 
 /* PADRÕES */
@@ -101,6 +100,7 @@ h1 {
 
 .texto {
     width: 80%;
+    text-align: justify;
 }
 
 /* HEADER, BANNER/TITLE PAGE */
@@ -123,7 +123,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
-    background-image: url(../img/plant-white.jpg);
+    background-image: url("../img/plant-white.jpeg");
 }
 
 /* SIDEBAR/NAVBAR */
@@ -162,6 +162,7 @@ h1 {
 .logo {
     height: 50px;
     padding-top: 9px;
+    text-align: center;
 }
 
 .logo > a {

@@ -76,6 +76,9 @@ h1 {
 }
 
 .sub-title{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     font-family: Montserrat, sans serif;
     font-weight: bold;
     color: #008000;
@@ -124,6 +127,12 @@ h1 {
     background-position: center 0;
     background-size: cover;
     background-image: url("../img/plant-white.jpeg");
+    filter: grayscale(1);
+    transition: .6s;
+}
+
+.banner:hover{
+    filter: grayscale(0);
 }
 
 /* SIDEBAR/NAVBAR */
@@ -211,6 +220,17 @@ h1 {
 .video, .imagem {
     display: flex;
     justify-content: center;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+figcaption{
+    padding: 5px;
 }
 
 @media (max-width: 800px) {
